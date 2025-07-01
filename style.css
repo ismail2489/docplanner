@@ -1,0 +1,328 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(10, 175, 148);
+    border-radius: 7px;
+}
+.container header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    position: fixed;
+    height: 60px;
+    margin: auto;
+    top: 0%;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    background-color: white;
+}
+.container header nav .logo{
+    color: rgb(175, 175, 175);
+    width: 270px;
+    padding-left: 190px;
+}
+.container header nav .nav-links{
+    padding-right: 210px;
+}
+.container header nav .nav-links a{
+    color: #667070;
+    margin: 0 4px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 15px;
+}
+.container header nav .nav-links a:hover{
+    color: rgb(0, 247, 255);
+}
+.d{
+    position: relative;
+    display: inline-block;
+}
+.d .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 253, 253);
+    min-width: 160px;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+.d:hover .dropdown-content{
+    display: block;
+    color: rgb(175, 175, 175);
+}
+.d .dropdown-content ul li:hover{
+    color: rgb(0, 247, 255);
+    border-color: #667070;
+}
+.content{
+    align-items: center;
+    margin-top: 100px;
+     margin: 5%;
+}
+.content .loogo{
+    width: 50px;
+    margin-left: 45%;
+}
+.content h1{
+    color: #00A892;
+    font-family: "Work Sans", Arial, sans-serif;
+    padding-left: 25%;
+    padding-top: 50px;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 44.2px;
+}
+.content .texts{
+    width: 80%;
+    display: flex;
+    color: #667070;
+    justify-content:space-between ;
+    align-content: center;
+    padding: 80px;
+    gap: 50px;
+    font-family: Roboto, Arial, sans-serif;
+    Font-Size:16px;
+    Line-Height:28px;
+    Font-Weight:Regular (400);
+    Letter-Spacing:normal;
+    margin-left: 50px;
+}
+.content .columns{      
+    margin-left: 126px;
+    margin-right: 150px;
+    display: flex;
+    gap: 25px;
+    border-radius: 10px 0 10px 0;
+    padding-bottom: 50px;
+    width: 80%;
+    padding-right: 50px;
+}
+.columns i{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 30px;
+}
+.columns h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.columns h3{
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.columns h4{
+    text-transform: lowercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.columns h4 i{
+    margin-bottom: 30px;
+}
+.columns .clinic{
+    background-color: #1B2734;
+    border-radius: 8px;
+    width: 33.3%;
+    cursor: pointer;
+    color: #fff;
+}
+.columns .clinic:hover{
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+.columns .patient{
+    background-color: #00CCB1;
+    border-radius: 8px;
+    width: 33.3%;
+    cursor: pointer;
+    color: #fff;
+}
+.columns .patient:hover{
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+.columns .doctors{
+    background-color:#3D83DF;
+    border-radius: 8px;
+    width: 33.3%;
+    cursor: pointer;
+    color: #fff;
+}
+.columns .doctors:hover{
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+.links{
+    width: 80%;
+}
+.links h1{
+    font-family:'Times New Roman', Times, serif;
+    width: 20%;
+    right: 0%;
+}
+.center{
+    display: flex;
+    width:1350px;
+    height: 100vh;
+    background: #E5FAF8;
+    left:0;
+    overflow: hidden;
+}
+.center .right{
+    font-size: 28px;
+    padding: 50px 20px;
+}
+.center .right h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Work Sans", Arial, sans-serif;
+    color: #00bfa5;
+    margin-left: 158px;
+}
+.center .right p{
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 158px;
+    color: #667070;
+    font-family: Roboto, Arial, sans-serif;
+    margin-top: 30px;
+}
+.lc{
+    margin-top: 70px;
+    width: 500px;
+}
+.center .left{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 70px;
+}
+.card{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 20px 8px rgba(0,0,0,0,1);
+}
+.card h2{
+    color: #00bfa5;
+    margin-bottom: 10px;
+}
+.card i{
+    padding: 30px;
+    color: #00bfa5;
+    font-weight: 900;
+    font-size: 40px;
+    width:80%;
+}
+.final{
+    width: 80%;
+}
+.final .first{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 400px;
+}
+.final .first h2{
+    color: #00bfa5;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.final .first p{
+    color: #667070;
+    font-family: Roboto, Arial, sans-serif;
+    padding-bottom:60px;
+}
+.second{
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-left: 90px;
+    width: 90%;
+}
+.cards{
+    background-color: white;
+    margin: 20px 10px;
+    width: 300px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.cards:hover{
+    box-shadow: 10px 18px 18px rgb(0, 0, 0);
+}
+.cards img{
+    width: 100%;
+    border-radius: 5px;
+}
+.cards h3{
+    margin: 0px 30px;
+    color: #667070;
+}
+button{
+    padding: 5px 10px;
+    background-color: #3D83DF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 55%;
+}
+.third{
+    width: 100%;
+}
+.third h1{
+    letter-spacing: 1px;
+    margin-left: 300px;
+    color: #333333;
+    padding-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    font-family: serif;
+}
+.third button{
+    padding: 10px 20px;
+   background-color:#3D83DF;
+   font-size: 15px;
+}
+.third button:hover{
+    background-color: #006dfc;
+}
+footer{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #667070;
+    font-size: 14px;
+    margin-top: 60px;
+    border: #1B2734;
+    border-radius: 2px;
+    bottom: 0;
+    height: 60px;
+    font-family: serif;
+}
+footer p{
+    width: 80%;
+    padding-left: 150px;
+    padding-bottom: 0%;
+}
